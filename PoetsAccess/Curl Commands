@@ -1,0 +1,9 @@
+C:\Users\jwsti_000\JavaTools\curl-7.85.0_9-win64-mingw\curl-7.85.0_9-win64-mingw
+
+//lesser constructor
+curl.exe -x put 'http://localhost:8080/poets' -H 'Content-type:application/json' -d '{"firstname": "", "lastname": "", "nationality": "", "popularpoems": ""}'
+
+//greater constructor
+curl.exe -x put 'http://localhost:8080/poets' -H 'Content-type:application/json' -d '{"firstname": "", "lastname": "", "nationality": "", "poeticera": "", "birthdate": "", "deathdate": "", "popularpoems": ""}'
+
+curl.exe -X PUT http://localhost:8080/poets/6 -H 'Content-type:application/json' -d '{"firstName": "Jesse", "lastName": "Stiemann", "nationality": "American", "poeticEra": "PostModern", "birthDate": "June 26th, 1993", "deathDate": "Living", "popularPoems": "Dark Night of the Soul, Deceive Me Not, The Night Queen"}'
